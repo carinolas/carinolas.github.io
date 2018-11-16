@@ -25,5 +25,65 @@ li a {
     position: absolute;
     right: 0;
 }
+#colunadireita{
+    background-color:white;
+    padding: 40px;
+    height: auto;
+    float: right;
+    width: 350px;
+}
 
+#colunaesquerda{
+    padding: 40px;
+    background-color:white;
+    height: auto;
+    float: left;
+    width: 730px;
+}
+#a{
+    background-color: yellowgreen;
+    padding: 40px;
+    padding-top: 20px;
+    padding-right: 0;
+    border: 0;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1080px;
+}
+#conteudo{
+    background-color: white;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1080px;
+}
 
+#semstyle{
+    border: none;
+    border-radius: 20px;
+}
+
+#cardsfiltro {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    border-radius: 20px;
+    width: 270px;
+    height: 189px;
+}
+
+#proxpartida{
+    color:#616161;
+}
+
+#titulo{
+    height: 60px !important;
+    width: 695px !important;
+    background-color: black !important;
+}
+
+.texto{
+    text-align: justify;
+}
