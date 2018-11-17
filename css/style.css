@@ -8,7 +8,7 @@ ul {
     line-height: 20px;
 }
 nav{
-    background-color:#fff8e1 !important;
+    background-color: white !important;
 }
 
 li a {
@@ -86,4 +86,8 @@ li a {
 
 .texto{
     text-align: justify;
+}
+
+#espaçovermais{
+    padding-bottom: 20px;
 }
