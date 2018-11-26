@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>CSzolas: Cadastro</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="VNk5wlL.png" type="image/x-icon">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -84,7 +85,7 @@
 
 <body style="background-color: black">
     <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
             <img src="icon.png" width="30" height="30" class="d-inline-block align-top" alt=""> CS:GO by Carinolas
         </a>
 
@@ -140,46 +141,42 @@
             <form>
                 <div class="row">
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="Primeiro nome">
+                        <label for="primeironome">Primeiro nome</label>
+                        <input type="text" required="" class="form-control" placeholder="Primeiro nome">
                     </div>
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="Último nome">
+                        <label for="segundonome">Último nome</label>
+                        <input type="text" required="" class="form-control" placeholder="Último nome">
                     </div>
                 </div>
                 <br>
 
                 <div class="form-group">
                     <label for="exampleInputEmail1">Endereço de e-mail</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    <input type="email" required="" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail">
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Senha</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+                    <label for="password">Senha</label>
+                    <input type="password" required="" class="form-control" id="exampleInputPassword1" placeholder="Senha">
                 </div>
-                <br>
-
-                <input name="cep" type="text" id="cep" value="" size="10" maxlength="9" onblur="pesquisacep(this.value);" class="form-control"
+                <label for="cep">CEP</label>
+                <input name="cep" required="" type="text" id="cep" value="" size="10" maxlength="9" onblur="pesquisacep(this.value);" class="form-control"
                     placeholder="CEP">
                 <br>
-                <input name="rua" type="text" id="rua" size="60" class="form-control" placeholder="Rua">
+                <label for="rua">Rua</label>
+                <input name="rua" required="" type="text" id="rua" size="60" class="form-control" placeholder="Rua">
                 <br>
-                <input name="bairro" type="text" id="bairro" size="40" class="form-control" placeholder="Bairro">
+                <label for="bairro">Bairro</label>
+                <input name="bairro" required="" type="text" id="bairro" size="40" class="form-control" placeholder="Bairro">
                 <br>
-                <input name="cidade" type="text" id="cidade" size="40" class="form-control" placeholder="Cidade">
+                <label for="cidade">Cidade</label>
+                <input name="cidade" required="" type="text" id="cidade" size="40" class="form-control" placeholder="Cidade">
                 <br>
-                <input name="uf" type="text" id="uf" size="2" class="form-control" placeholder="Estado">
+                <label for="uf">UF</label>
+                <input name="uf" required="" type="text" id="uf" size="2" class="form-control" placeholder="Estado">
                 <br>
-
-
-                <div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
                 <br>
                 <button type="submit" class="btn btn-primary">Submit</button>
-
-
             </form>
         </div>
 
